@@ -20,22 +20,8 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
 
     Returns:
     - List[float]: A list of delays in ascending order.
-
-    Example Usage:
-    ```python
-    import asyncio
-    from your_module import task_wait_n
-
-    async def main():
-        delays = await task_wait_n(5, 10)
-        print(f"Sorted delays: {delays}")
-
-    asyncio.run(main())
-    ```
     """
-    # Gather results from multiple task_wait_random tasks
     resolved = await asyncio.gather(
         *(task_wait_random(max_delay) for i in range(n))
     )
-    # Return the sorted list of results
     return sorted(resolved)
