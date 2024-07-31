@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
-
-'''
-    Basic annotations for variables.
-'''
+'''Basic annotations - add'''
 
 
 def add(a: float, b: float) -> float:
-    '''
-        Returns sum of two floats.
-    '''
+    '''Return a sum of two floats'''
     return a + b
