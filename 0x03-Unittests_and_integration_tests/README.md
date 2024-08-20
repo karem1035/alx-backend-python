@@ -16,7 +16,7 @@ $ python -m unittest path/to/test_file.py
 
 ## Learning Objectives
 
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/NfT-nNKrNHGrDMY-Qm-1Dg 'explain to anyone'), **without the help of Google** :
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/NfT-nNKrNHGrDMY-Qm-1Dg "explain to anyone"), **without the help of Google** :
 
 - The difference between unit and integration tests.
 - Common testing patterns such as mocking, parametrizations and fixtures
@@ -191,7 +191,7 @@ Test that the result of `_public_repos_url` is the expected one based on the moc
 - Directory: `0x03-Unittests_and_integration_tests`
 - File: `test_client.py`
 
-6. More patching
+### 6. More patching
 
 **mandatory**
 
